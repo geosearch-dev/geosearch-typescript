@@ -1,6 +1,6 @@
 # BatchApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://geosearch.dev*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
