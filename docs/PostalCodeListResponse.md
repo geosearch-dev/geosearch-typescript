@@ -12,7 +12,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { PostalCodeListResponse } from '@geoapi/client'
+import type { PostalCodeListResponse } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

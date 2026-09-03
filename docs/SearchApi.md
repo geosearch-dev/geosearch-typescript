@@ -25,11 +25,11 @@ Returns autocomplete suggestions matching a query string across cities, regions,
 import {
   Configuration,
   SearchApi,
-} from '@geoapi/client';
-import type { AutocompleteRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { AutocompleteRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -108,11 +108,11 @@ Returns the administrative areas whose BOUNDARY POLYGONS CONTAIN the given coord
 import {
   Configuration,
   SearchApi,
-} from '@geoapi/client';
-import type { ResolveCoordinateRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { ResolveCoordinateRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -190,11 +190,11 @@ Returns the nearest city for a given latitude/longitude. Uses PostGIS spatial in
 import {
   Configuration,
   SearchApi,
-} from '@geoapi/client';
-import type { ReverseGeocodeRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { ReverseGeocodeRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -271,11 +271,11 @@ Performs a fuzzy text search across countries, regions, and cities using trigram
 import {
   Configuration,
   SearchApi,
-} from '@geoapi/client';
-import type { SearchRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { SearchRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",

@@ -25,11 +25,11 @@ Returns countries that share a border with the specified country.
 import {
   Configuration,
   CountriesApi,
-} from '@geoapi/client';
-import type { CountryNeighborsRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { CountryNeighborsRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -105,11 +105,11 @@ Returns a single country by its ISO alpha-2 code.
 import {
   Configuration,
   CountriesApi,
-} from '@geoapi/client';
-import type { GetCountryRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { GetCountryRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -185,11 +185,11 @@ Returns a paginated list of countries with optional filtering and sorting.
 import {
   Configuration,
   CountriesApi,
-} from '@geoapi/client';
-import type { ListCountriesRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { ListCountriesRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -283,11 +283,11 @@ Returns a paginated list of regions (administrative divisions) within a country.
 import {
   Configuration,
   CountriesApi,
-} from '@geoapi/client';
-import type { ListCountryRegionsRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { ListCountryRegionsRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",

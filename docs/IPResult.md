@@ -20,7 +20,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { IPResult } from '@geoapi/client'
+import type { IPResult } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

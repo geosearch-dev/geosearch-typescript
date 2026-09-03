@@ -12,7 +12,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { ErrorResponseErrorDetailsInner } from '@geoapi/client'
+import type { ErrorResponseErrorDetailsInner } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

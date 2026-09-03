@@ -25,11 +25,11 @@ Returns the full administrative hierarchy for a city, ordered from the city itse
 import {
   Configuration,
   CitiesApi,
-} from '@geoapi/client';
-import type { CityHierarchyRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { CityHierarchyRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -102,11 +102,11 @@ Returns a single city by its numeric ID.
 import {
   Configuration,
   CitiesApi,
-} from '@geoapi/client';
-import type { GetCityRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { GetCityRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -183,11 +183,11 @@ Returns a paginated list of cities with optional filtering by country, admin cod
 import {
   Configuration,
   CitiesApi,
-} from '@geoapi/client';
-import type { ListCitiesRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { ListCitiesRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -301,11 +301,11 @@ Returns cities near a given latitude/longitude within a specified radius. Result
 import {
   Configuration,
   CitiesApi,
-} from '@geoapi/client';
-import type { NearbyCitiesRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { NearbyCitiesRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",

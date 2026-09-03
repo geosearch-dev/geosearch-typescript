@@ -14,7 +14,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { HierarchyNode } from '@geoapi/client'
+import type { HierarchyNode } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

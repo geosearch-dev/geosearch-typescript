@@ -33,7 +33,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { Country } from '@geoapi/client'
+import type { Country } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

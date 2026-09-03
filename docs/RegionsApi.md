@@ -25,11 +25,11 @@ Returns a single region by its numeric ID.
 import {
   Configuration,
   RegionsApi,
-} from '@geoapi/client';
-import type { GetRegionRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { GetRegionRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -106,11 +106,11 @@ Returns a paginated list of cities within a specific region.  THIS ENDPOINT AND 
 import {
   Configuration,
   RegionsApi,
-} from '@geoapi/client';
-import type { ListRegionCitiesRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { ListRegionCitiesRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -195,11 +195,11 @@ Returns a paginated list of regions with optional filtering by country, level, a
 import {
   Configuration,
   RegionsApi,
-} from '@geoapi/client';
-import type { ListRegionsRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { ListRegionsRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -293,11 +293,11 @@ Returns all cities that are direct children of the specified region in the admin
 import {
   Configuration,
   RegionsApi,
-} from '@geoapi/client';
-import type { RegionChildrenRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { RegionChildrenRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",

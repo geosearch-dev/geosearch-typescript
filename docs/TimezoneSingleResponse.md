@@ -11,7 +11,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { TimezoneSingleResponse } from '@geoapi/client'
+import type { TimezoneSingleResponse } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

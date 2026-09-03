@@ -13,7 +13,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { GeoJSONGeometry } from '@geoapi/client'
+import type { GeoJSONGeometry } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

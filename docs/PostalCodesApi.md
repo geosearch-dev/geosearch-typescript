@@ -23,11 +23,11 @@ Returns a paginated list of postal codes with optional filtering by country and 
 import {
   Configuration,
   PostalCodesApi,
-} from '@geoapi/client';
-import type { ListPostalCodesRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { ListPostalCodesRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -123,11 +123,11 @@ Returns the nearest postal codes to a given latitude/longitude using PostGIS spa
 import {
   Configuration,
   PostalCodesApi,
-} from '@geoapi/client';
-import type { NearestPostalCodeRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { NearestPostalCodeRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",

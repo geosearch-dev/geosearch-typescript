@@ -15,7 +15,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { AutocompleteResult } from '@geoapi/client'
+import type { AutocompleteResult } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

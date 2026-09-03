@@ -13,7 +13,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { RegionRef } from '@geoapi/client'
+import type { RegionRef } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

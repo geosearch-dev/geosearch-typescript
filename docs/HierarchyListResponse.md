@@ -12,7 +12,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { HierarchyListResponse } from '@geoapi/client'
+import type { HierarchyListResponse } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

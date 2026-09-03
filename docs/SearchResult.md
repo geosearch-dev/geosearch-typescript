@@ -18,7 +18,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { SearchResult } from '@geoapi/client'
+import type { SearchResult } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

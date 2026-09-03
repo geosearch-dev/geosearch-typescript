@@ -24,11 +24,11 @@ Returns multiple cities in a single request. Maximum 50 IDs per request.
 import {
   Configuration,
   BatchApi,
-} from '@geoapi/client';
-import type { BatchCitiesRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { BatchCitiesRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -104,11 +104,11 @@ Returns multiple countries in a single request. Maximum 50 IDs per request.
 import {
   Configuration,
   BatchApi,
-} from '@geoapi/client';
-import type { BatchCountriesRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { BatchCountriesRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -184,11 +184,11 @@ Returns multiple regions in a single request. Maximum 50 IDs per request.
 import {
   Configuration,
   BatchApi,
-} from '@geoapi/client';
-import type { BatchRegionsRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { BatchRegionsRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",

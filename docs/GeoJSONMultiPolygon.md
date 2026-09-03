@@ -13,7 +13,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { GeoJSONMultiPolygon } from '@geoapi/client'
+import type { GeoJSONMultiPolygon } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

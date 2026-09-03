@@ -12,7 +12,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { ReverseGeocodeResult } from '@geoapi/client'
+import type { ReverseGeocodeResult } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

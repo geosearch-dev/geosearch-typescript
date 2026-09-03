@@ -23,11 +23,11 @@ Returns geolocation data for a given IPv4 or IPv6 address.
 import {
   Configuration,
   IPGeolocationApi,
-} from '@geoapi/client';
-import type { LookupIPRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { LookupIPRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -103,11 +103,11 @@ Auto-detects the client\&#39;s IP address (from X-Forwarded-For or RemoteAddr) a
 import {
   Configuration,
   IPGeolocationApi,
-} from '@geoapi/client';
-import type { LookupMyIPRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { LookupMyIPRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",

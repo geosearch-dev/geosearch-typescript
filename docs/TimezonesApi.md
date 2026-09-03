@@ -23,11 +23,11 @@ Returns a single timezone by its IANA identifier. Note: IANA timezone IDs contai
 import {
   Configuration,
   TimezonesApi,
-} from '@geoapi/client';
-import type { GetTimezoneRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { GetTimezoneRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",
@@ -104,11 +104,11 @@ Returns a paginated list of timezones with optional filtering by country.
 import {
   Configuration,
   TimezonesApi,
-} from '@geoapi/client';
-import type { ListTimezonesRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { ListTimezonesRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",

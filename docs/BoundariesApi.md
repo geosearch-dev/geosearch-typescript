@@ -22,11 +22,11 @@ Returns the boundary polygon for one country or region as a bare GeoJSON geometr
 import {
   Configuration,
   BoundariesApi,
-} from '@geoapi/client';
-import type { GetBoundaryRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { GetBoundaryRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const config = new Configuration({ 
     // To configure API key authorization: apiKeyAuth
     apiKey: "YOUR API KEY",

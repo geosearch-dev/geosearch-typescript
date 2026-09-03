@@ -11,7 +11,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { BoundarySingleResponse } from '@geoapi/client'
+import type { BoundarySingleResponse } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

@@ -22,11 +22,11 @@ Returns the API health status and database connectivity. No authentication requi
 import {
   Configuration,
   HealthApi,
-} from '@geoapi/client';
-import type { GetStatusRequest } from '@geoapi/client';
+} from '@geosearch/client';
+import type { GetStatusRequest } from '@geosearch/client';
 
 async function example() {
-  console.log("🚀 Testing @geoapi/client SDK...");
+  console.log("🚀 Testing @geosearch/client SDK...");
   const api = new HealthApi();
 
   try {

@@ -15,7 +15,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { QuotaDetail } from '@geoapi/client'
+import type { QuotaDetail } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {

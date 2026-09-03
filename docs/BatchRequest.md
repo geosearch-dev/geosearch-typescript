@@ -11,7 +11,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { BatchRequest } from '@geoapi/client'
+import type { BatchRequest } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {
