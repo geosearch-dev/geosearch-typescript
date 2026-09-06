@@ -17,8 +17,8 @@ import type { GeoJSONMultiPolygon } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {
-  "type": null,
-  "coordinates": null,
+  "type": MultiPolygon,
+  "coordinates": [[[[-124.7, 48.4], [-124.6, 48.4], [-124.6, 48.3], [-124.7, 48.4]]]],
 } satisfies GeoJSONMultiPolygon
 
 console.log(example)

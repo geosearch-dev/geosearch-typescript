@@ -28,7 +28,7 @@ import type { PostalCode } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {
-  "id": null,
+  "id": 1140425,
   "countryCode": US,
   "postalCode": 94105,
   "placeName": San Francisco,
@@ -36,8 +36,8 @@ const example = {
   "adminCode1": CA,
   "adminName2": San Francisco,
   "adminCode2": 075,
-  "adminName3": null,
-  "adminCode3": null,
+  "adminName3": ,
+  "adminCode3": ,
   "latitude": 37.7864,
   "longitude": -122.3892,
   "accuracy": 4,

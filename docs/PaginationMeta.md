@@ -20,7 +20,7 @@ import type { PaginationMeta } from '@geosearch/client'
 // TODO: Update the object below with actual values
 const example = {
   "nextCursor": eyJpZCI6MjV9,
-  "prevCursor": null,
+  "prevCursor": eyJpZCI6MX0,
   "hasNext": true,
   "hasPrev": false,
   "count": 25,

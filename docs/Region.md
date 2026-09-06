@@ -34,7 +34,7 @@ const example = {
   "name": California,
   "asciiName": California,
   "level": 1,
-  "parentGeonameId": null,
+  "parentGeonameId": 6252001,
   "population": 39538223,
   "latitude": 36.778,
   "longitude": -119.418,

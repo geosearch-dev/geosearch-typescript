@@ -18,7 +18,7 @@ import type { GeoJSONGeometry } from '@geosearch/client'
 // TODO: Update the object below with actual values
 const example = {
   "type": MultiPolygon,
-  "coordinates": null,
+  "coordinates": [[[[-124.7, 48.4], [-124.6, 48.4], [-124.6, 48.3], [-124.7, 48.4]]]],
 } satisfies GeoJSONGeometry
 
 console.log(example)

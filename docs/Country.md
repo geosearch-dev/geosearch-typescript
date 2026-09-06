@@ -58,7 +58,7 @@ const example = {
   "neighbours": [CA, MX],
   "latitude": 39.76,
   "longitude": -98.5,
-  "flagEmoji": null,
+  "flagEmoji": 🇺🇸,
   "geometry": null,
 } satisfies Country
 

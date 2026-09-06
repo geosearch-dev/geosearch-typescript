@@ -20,7 +20,7 @@ import type { Timezone } from '@geosearch/client'
 
 // TODO: Update the object below with actual values
 const example = {
-  "id": null,
+  "id": 424,
   "countryCode": US,
   "timezoneId": America/New_York,
   "gmtOffset": -5.0,
