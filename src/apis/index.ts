@@ -1,12 +1,11 @@
 /* tslint:disable */
 /* eslint-disable */
-export * from './BatchApi';
-export * from './BoundariesApi';
-export * from './CitiesApi';
-export * from './CountriesApi';
-export * from './HealthApi';
-export * from './IPGeolocationApi';
-export * from './PostalCodesApi';
-export * from './RegionsApi';
-export * from './SearchApi';
-export * from './TimezonesApi';
+export * from './BatchApi.js';
+export * from './BoundariesApi.js';
+export * from './CitiesApi.js';
+export * from './CountriesApi.js';
+export * from './HealthApi.js';
+export * from './PostalCodesApi.js';
+export * from './RegionsApi.js';
+export * from './SearchApi.js';
+export * from './TimezonesApi.js';

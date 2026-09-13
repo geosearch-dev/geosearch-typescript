@@ -80,8 +80,6 @@ All URIs are relative to *https://geosearch.dev*
 *CountriesApi* | [**listCountries**](docs/CountriesApi.md#listcountries) | **GET** /v1/countries | List countries
 *CountriesApi* | [**listCountryRegions**](docs/CountriesApi.md#listcountryregions) | **GET** /v1/countries/{code}/regions | List regions in a country
 *HealthApi* | [**getStatus**](docs/HealthApi.md#getstatus) | **GET** /v1/status | Health check
-*IPGeolocationApi* | [**lookupIP**](docs/IPGeolocationApi.md#lookupip) | **GET** /v1/ip/{address} | IP geolocation lookup
-*IPGeolocationApi* | [**lookupMyIP**](docs/IPGeolocationApi.md#lookupmyip) | **GET** /v1/ip/me | Caller\&#39;s IP geolocation
 *PostalCodesApi* | [**listPostalCodes**](docs/PostalCodesApi.md#listpostalcodes) | **GET** /v1/postal-codes | List postal codes
 *PostalCodesApi* | [**nearestPostalCode**](docs/PostalCodesApi.md#nearestpostalcode) | **GET** /v1/postal-codes/nearest | Find nearest postal codes
 *RegionsApi* | [**getRegion**](docs/RegionsApi.md#getregion) | **GET** /v1/regions/{id} | Get region by ID
@@ -119,14 +117,6 @@ All URIs are relative to *https://geosearch.dev*
 - [GetStatus200ResponseData](docs/GetStatus200ResponseData.md)
 - [HierarchyListResponse](docs/HierarchyListResponse.md)
 - [HierarchyNode](docs/HierarchyNode.md)
-- [IPResult](docs/IPResult.md)
-- [IPResultCity](docs/IPResultCity.md)
-- [IPResultContinent](docs/IPResultContinent.md)
-- [IPResultCountry](docs/IPResultCountry.md)
-- [IPResultLocation](docs/IPResultLocation.md)
-- [IPResultPostal](docs/IPResultPostal.md)
-- [IPResultRegion](docs/IPResultRegion.md)
-- [IPSingleResponse](docs/IPSingleResponse.md)
 - [NearbyCity](docs/NearbyCity.md)
 - [NearbyCityListResponse](docs/NearbyCityListResponse.md)
 - [PaginationMeta](docs/PaginationMeta.md)
